@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntelliTextCreator</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>IntelliTextCreator</h1>
+      <form method="POST" action="/">
+        <label for="prompt">Prompt:</label>
+        <textarea
+          id="prompt"
+          name="prompt"
+          rows="5"
+          placeholder="Gib deinen Text ein..."
+        ></textarea>
+        <button type="submit">Generieren</button>
+      </form>
+
+      {% if generated_text %}
+      <h2>Generierter Text:</h2>
+      <p>{{ generated_text }}</p>
+      {% endif %}
+    </div>
+  </body>
+</html>
