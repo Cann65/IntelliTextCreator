@@ -1,6 +1,4 @@
 # IntelliTextCreator
-<<<<<<< HEAD
-
 Ein professionelles Projekt zur Demonstration eines GPT-2-basierten Textgenerators mithilfe von Flask (Python).
 
 ## Features
