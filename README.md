@@ -20,4 +20,4 @@ Ein professionelles Projekt zur Demonstration eines GPT-2-basierten Textgenerato
    ```
 =======
 Ein intelligenter Textgenerator basierend auf GPT-2, containerisiert mit Docker und bereit zur Bereitstellung.
->>>>>>> 4e060028d97b9990693a13c2cd848df4261fd120
+
