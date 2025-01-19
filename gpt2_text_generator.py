@@ -12,8 +12,7 @@ class GPT2TextGenerator:
         print("Initializing GPT-2 pipeline with model_name:", model_name)
         self.generator = pipeline("text-generation", model=model_name)
 
-        # Speichere die Parameter in Instanz-Variablen,
-        # damit wir sie später in generate_text() nutzen können.
+  
         self.max_length = max_length
         self.temperature = temperature
         self.top_p = top_p
