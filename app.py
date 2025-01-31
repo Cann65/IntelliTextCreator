@@ -25,6 +25,4 @@ def home():
     return render_template("index.html", generated_text=generated_text)
 
 if __name__ == "__main__":
-    # Für produktives Deployment solltest du debug=False setzen.
-    # Beispielsweise via Gunicorn oder Waitress ausführen.
     app.run(host="0.0.0.0", port=5000, debug=True)
