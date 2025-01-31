@@ -3,7 +3,7 @@ from gpt2_text_generator import GPT2TextGenerator
 
 app = Flask(__name__)
 
-# Initialisiere Text-Generator mit deinen Wunschparametern
+
 text_generator = GPT2TextGenerator(
     model_name="gpt2",   # oder z.B. "gpt2-medium"
     max_length=100,
